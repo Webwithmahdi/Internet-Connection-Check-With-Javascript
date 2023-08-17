@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.content {
+  margin: auto;
+  text-align: center;
+}
+.connection {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  background-color: darkgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+}
+.check-btn {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: darkslateblue;
+  color: white;
+}
